@@ -1,0 +1,17 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: salmon;
+}
+
+.container {
+	width: 100vw;
+	margin: auto;
+	display: block;
+}
