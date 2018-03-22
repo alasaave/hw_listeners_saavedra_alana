@@ -8,6 +8,7 @@ html {
 
 body {
 	background-color: salmon;
+	font: 1.5em 'Patrick Hand', cursive;
 }
 
 .container {
@@ -31,10 +32,19 @@ p {
 
 #comments {
 	color: silver;
-	font-style: italic;
+	font: 0.875em 'Patrick Hand', cursive;
 }
 
 #submit {
+	color: white;
 	width: 25%;
-	margin-top: 1%;
+	margin-top: 5%;
+	font: 0.875em 'Patrick Hand', cursive;
+	background-color: salmon;
+	border: 5px dotted white;
+}
+
+#submit:hover {
+	color: salmon;
+	background-color: white;
 }
