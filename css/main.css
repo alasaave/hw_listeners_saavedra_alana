@@ -11,7 +11,30 @@ body {
 }
 
 .container {
-	width: 100vw;
+	width: 90vw;
 	margin: auto;
 	display: block;
+}
+
+input, label, textarea {
+	width: 45%;
+	margin: auto;
+	display: block;
+	padding: 1% 0 1% 0;
+}
+
+p {
+	width: 45%;
+	margin: auto;
+	padding: 1% 0 1% 0;
+}
+
+#comments {
+	color: silver;
+	font-style: italic;
+}
+
+#submit {
+	width: 25%;
+	margin-top: 1%;
 }
