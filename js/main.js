@@ -1,24 +1,12 @@
-//logs all
-var submitButton = document.getElementById('submit');
+var firstName = document.getElementById('firstname');
+var lastName = document.getElementById('lastname');
+var email = document.getElementById('email');
+var comments = document.getElementById('comments');
 
-submitButton.addEventListener('click', function (eventInfo) {
-    eventInfo.preventDefault();
-    console.log('The firstName is: ');
-    console.log('The lastName is: ');
-    console.log('The email is: ');
-    console.log('The message is: ');
+document.addEventListener('submit', function () {
+    console.log('The firstName is: ' + firstName.value);
+    console.log('The lastName is: ' + lastName.value);
+    console.log('The email is: ' + email.value);
+    console.log('The message is: ' + comments.value);
+    event.preventDefault();
 });
-
-
-/*WORKS ON INPUT ONLY FOR ONE FIELD, not on submit
-document.getElementsByName('name')[0].addEventListener('change', doThing);
-
-function doThing() {
-    console.log('The firstName is: ' + this.value);
-
-}
-
-var submitButton = document.getElementById('submit');
-submitButton.addEventListener('click', function (eventInfo) {
-    eventInfo.preventDefault();
-});*/
