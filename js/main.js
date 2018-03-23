@@ -7,4 +7,20 @@ window.addEventListener('scroll', function () {
     }
 });
 
-//Mouseover
+/*Click
+var pageHeading = document.getElementById('pageHeading');
+
+pageHeading.addEventListener('click', listener, false);
+
+function listener() {
+    document.getElementById('show').innerHTML = '<h1>Please watch</h1>';
+}
+*/
+
+//Click 2
+var pageHeading = document.getElementById('pageHeading');
+
+pageHeading.addEventListener('click', function () {
+    document.getElementById('show').innerHTML = '<h1>Please watch</h1>';
+}
+);

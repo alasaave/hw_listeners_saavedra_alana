@@ -1,9 +1,16 @@
 html {
 	box-sizing: border-box;
+	background-color: #f9e45b;
+	font-family: 'Barlow', sans-serif;
 }
 
 *, *::before, *::after {
 	box-sizing: inherit;
+}
+
+main {
+	width: 90%;
+	margin: auto;
 }
 
 img {
@@ -11,18 +18,18 @@ img {
 	top: 0;
 }
 
-h1 {
-	visibility: hidden;
+h2, h3 {
+	font-weight: 600;
 }
 
-#hidden {
-	display: visible;
+p:first-child {
+	color: #2196f3;
 }
 
 figure img {
-	width: 50%;
+	width: 80%;
 }
 
 .changePic {
-	box-shadow: 0 8px 8px 0 rgba(255, 229, 0, 0.39), 0 16px 15px 0 rgba(255, 235, 59, 0.67);
+	box-shadow: 0 8px 8px 0 #9c27b0ab, 0 16px 15px 0 #673ab77d;
 }
