@@ -1,4 +1,4 @@
-//Scroll: image has purple shadow past 150px
+//Listens for SCROLLING of the page past 150px then adds purple shadow on header image
 window.addEventListener('scroll', function () {
     if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
         document.getElementById('headerImage').className = 'changePic';
@@ -7,7 +7,7 @@ window.addEventListener('scroll', function () {
     }
 });
 
-//Click: shows <h1> @ top of page
+//Litens for CLICK on the <p> tag at the top of the page then displays <h1>
 var pageHeading = document.getElementById('pageHeading');
 
 pageHeading.addEventListener('click', function () {
@@ -15,7 +15,7 @@ pageHeading.addEventListener('click', function () {
 }
 );
 
-//Keydown
+//Listens for KEYDOWN in the <input> tag at the bottom of the page then displays background image
 document.getElementById('finish').addEventListener('keydown', footerImg);
 
 function footerImg() {
