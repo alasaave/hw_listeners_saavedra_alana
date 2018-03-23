@@ -1,22 +1,22 @@
 # Responsive Transformation
 * Alana Saavedra
-* 03-11-18
+* 03-25-18
 
 ## Links
-* [GitHub](http://github.com/alasaave/project_final2_saavedra_alana)
-* [Web Host](http://alanasaavedra.com/project_final2_saavedra_alana/)
-* [W3C Validator](http://validator.w3.org/unicorn/check?ucn_uri=alanasaavedra.com%2Fproject_final2_saavedra_alana%2F&ucn_task=conformance#)
-* [HTML5 Outliner](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Falanasaavedra.com%2Fproject_final2_saavedra_alana%2F)
-
+* [GitHub](http://github.com/alasaave/hw_listeners_saavedra_alana)
 
 ## Resources
-* [W3Schools](https://www.w3schools.com/cssref/css_pxtoemconversion.asp)
-	* I used this to calculate pixels to em.
-
+* [W3Schools](https://www.w3schools.com/html/html_forms.asp)
+	- Used to remind myself of form tag syntax.
+* [W3Schools](https://www.w3schools.com/jsref/event_onscroll.asp)
+	- Used to practice onscroll events.
+* [StackOverflow](https://stackoverflow.com/questions/24543628/how-to-count-mouse-clicks)
+	- How to add up clicks
+* [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/Events/keydown)
+	- Referenced for keydown events syntax.
 
 ## Deductions
 I reviewed the list of deductions for this project and in the syllabus.
 
 ## Comments
-
-
+It was challenging, but doable. Definitely learned a lot more myself doing the custom branch than the other two, because we had to do more digging.

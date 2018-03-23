@@ -1,9 +1,7 @@
-//Listens for SCROLLING of the page past 150px then adds purple shadow on header image
+//Listens for SCROLLING of the page past 200px then adds purple shadow on header image
 window.addEventListener('scroll', function () {
-    if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
         document.getElementById('headerImage').className = 'changePic';
-    } else {
-        document.getElementById('headerImage').className = '';
     }
 });
 
